@@ -1,6 +1,7 @@
 from django.db import models
 
 # Create your models here.
+<<<<<<< HEAD
 class Topic(models.Model):
     top_name=models.CharField(max_length=264,unique=True)
 
@@ -22,3 +23,5 @@ class AccessRecord(models.Model):
 
 def __str__(self):
     return str(self.date)    
+=======
+>>>>>>> f7c3cecd5e84d40cb8201c40f12c405777c84e64
